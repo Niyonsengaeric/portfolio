@@ -8,6 +8,7 @@ import {
   worktimeline,
   skills,
   services,
+  otherSkills,
 } from "../../content_option";
 
 export const About = () => {
@@ -35,7 +36,7 @@ export const About = () => {
             </div>
           </Col>
         </Row>
-        <Row className=" sec_sp">
+        {/* <Row className=" sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">Work Timline</h3>
           </Col>
@@ -54,7 +55,7 @@ export const About = () => {
               </tbody>
             </table>
           </Col>
-        </Row>
+        </Row> */}
         <Row className="sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">Skills</h3>
@@ -74,6 +75,22 @@ export const About = () => {
                       <div className="progress-value">{data.value}%</div>
                     </div>
                   </div>
+                </div>
+              );
+            })}
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Other Skills</h3>
+          </Col>
+          <Col lg="7">
+            {otherSkills.map((data, i) => {
+              return (
+                <div key={i}>
+                  <h3 className="progress-title">
+                    {i + 1}. {data.name}
+                  </h3>
                 </div>
               );
             })}
