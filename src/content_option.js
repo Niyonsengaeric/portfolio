@@ -13,8 +13,8 @@ const introdata = {
     third: "I am eager to learn new things",
   },
   description:
-    "I am a Software Engineer focused on Software development with over 5 years of experience. As a result of my education background and experience, I have wide range of understanding in Javascript, Node js(express framework), React Js/Next.js/Typescript, Java spring boot as well as Flutter and React Native. In addition to that, I am fast learner with strong analytical thinking and problem solving skills,I have positive attitude and ability to work independently and collaboratively as part of the team.",
-  your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    "I am a Full-stack Engineer with a Bachelor's degree in Computer and Software Engineering. I have gained hands-on experience working with a diverse range of tools and languages. My expertise lies in utilizing Spring Boot, Node.js (including Express framework), and Nest.js for back-end development, as well as specializing in React.js and Next.js for front-end development. Along with strong analytical and problem-solving skills, I am known for being a fast learner and adaptable team player.",
+  your_img_url: "https://res.cloudinary.com/niyo/image/upload/v1687827603/i598augu8ahbfa5ow5mk.jpg",
 };
 
 const dataabout = {
@@ -42,19 +42,19 @@ const worktimeline = [
 const skills = [
   {
     name: "Javascript",
-    value: 85,
+    value: 95,
   },
   {
-    name: "React",
-    value: 80,
+    name: "React.js / Next.Js",
+    value: 95,
   },
   {
-    name: "Node js",
+    name: "Node.js / Nest.js",
     value: 80,
   },
   {
     name: "Spring boot",
-    value: 75,
+    value: 90,
   },
 ];
 const otherSkills = [
@@ -183,7 +183,7 @@ const contactConfig = {
 
 const socialprofils = {
   github: "https://github.com/Niyonsengaeric",
-  facebook: "https://www.facebook.com/NERI103",
+  // facebook: "https://www.facebook.com/NERI103",
   linkedin: "https://www.linkedin.com/in/niyonsenga-eric-ba781b139",
   twitter: "https://twitter.com/NiyEric",
   // youtube: "https://youtube.com",
