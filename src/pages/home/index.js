@@ -14,14 +14,11 @@ export const Home = () => {
           <title> {meta.title}</title>
           <meta name="description" content={meta.description} />
         </Helmet>
-        <div className="intro_sec d-block d-lg-flex align-items-center ">
-          <div
-            className="h_bg-image order-1 order-lg-2 h-100 "
-            style={{ backgroundImage: `url(${introdata.your_img_url})` }}
-          ></div>
-          <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
+        <div className="intro_sec d-block d-lg-flex align-items-center display-block">
+          <div className="order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
-              <div className="intro mx-auto">
+              <div className="mx-auto content-wrapper">
+                <img src={introdata.your_img_url} alt="NIYONSENGA Eric" style={{ height: '250px', width: '200px',borderRadius:'50%', marginBottom:'30px' }}/>
                 <h2 className="mb-1x">{introdata.title}</h2>
                 <h1 className="fluidz-48 mb-1x">
                   <Typewriter
@@ -42,7 +39,7 @@ export const Home = () => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://drive.google.com/file/d/1tdRYVQnu2vlQo1nUY1eYQSZMvJf9E6Md/view?usp=share_link"
+                    href="https://www.canva.com/design/DAD_ma3Wjhk/HTzJAt8V46voLX_ahRVw4w/view?utm_content=DAD_ma3Wjhk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
                   >
                     <div id="button_p" className="ac_btn btn ">
                       My CV
