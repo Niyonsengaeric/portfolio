@@ -18,7 +18,7 @@ export const Home = () => {
           <div className="order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
               <div className="mx-auto content-wrapper">
-                <img src={introdata.your_img_url} alt="NIYONSENGA Eric" style={{ height: '250px', width: '200px',borderRadius:'50%', marginBottom:'30px' }}/>
+                <img src={introdata.your_img_url} alt="NIYONSENGA Eric" style={{ height: '278px', width: '200px',borderRadius:'50%', marginBottom:'30px' }}/>
                 <h2 className="mb-1x">{introdata.title}</h2>
                 <h1 className="fluidz-48 mb-1x">
                   <Typewriter

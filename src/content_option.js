@@ -85,12 +85,12 @@ const services = [
   {
     title: "Backend developer",
     description:
-      "Writing the web services and APIs used by front-end developers, mobile application developers and responsible for server-side web application logic as well as the integration of the front-end part.",
+      "As a Full-stack Engineer specializing in backend development, I bring a wealth of hands-on experience working with a diverse range of tools and languages. With expertise in Spring Boot, Node.js (including Express framework), and Nest.js, I have a solid foundation for building robust and scalable backend systems. I am known for my strong analytical thinking, problem-solving skills, and adaptability as a fast learner. With a positive attitude and the ability to work independently or collaboratively, I am committed to delivering high-quality results in every project.",
   },
   {
     title: "Fronted developer",
     description:
-      "Responsible for developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages.",
+      "As a Full-stack Engineer with a focus on frontend development, I possess a broad range of skills and experience to create engaging user interfaces. Specializing in React.js and Next.js, I am proficient in crafting intuitive and visually appealing frontend solutions. With a strong foundation in HTML, CSS, and JavaScript, I can transform design concepts into functional and responsive web applications. Known for my analytical thinking, problem-solving abilities, and fast learning, I approach frontend challenges with enthusiasm and a commitment to delivering high-quality results. Whether working independently or collaboratively, I strive to create seamless and enjoyable user experiences.",
   },
 ];
 
